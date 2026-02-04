@@ -9,6 +9,7 @@ An Object Show Focused Animation Program.
 * Scroll whell + shift to scroll throught keyframes
 * Ctrl + Z to undo
 * Space to hit play
+* ESC to get out of typing menus
 * Everything else is mouse controlled.
 
 # How to import custom assets
