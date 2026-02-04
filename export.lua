@@ -4,7 +4,6 @@ function Export.saveSequence(Timeline, Canvas, StageColor)
     local baseDir = love.filesystem.getSourceBaseDirectory()
     local saveDir = love.filesystem.getSaveDirectory()
     
-    -- Format paths for Windows (backslashes and absolute)
     local exePath = (baseDir .. "/ffmpeg.exe"):gsub("/", "\\")
     
     local folderName = "export_" .. os.time()
@@ -82,5 +81,6 @@ function Export.saveSequence(Timeline, Canvas, StageColor)
     _G.exportProgress = nil
     _G.exportStatus = nil
 end
+
 
 return Export
